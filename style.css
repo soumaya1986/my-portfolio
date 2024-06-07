@@ -1,0 +1,136 @@
+/* All CSS styles goes here */
+/* font family's liks  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poor+Story&display=swap");
+body {
+  background-color: beige;
+  font-family: "Roboto", sans-serif;
+  color: black;
+  padding: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  color: rgb(61, 59, 59);
+  font-size: 60px;
+}
+nav {
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: url(https://images.pexels.com/photos/4194853/pexels-photo-4194853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid rgb(185, 181, 181);
+  color: rgb(199, 10, 10);
+  padding: 15px;
+  display: inline-block;
+  border-radius: 7px;
+  margin-right: 110px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: "Poor Story", system-ui;
+}
+a:hover {
+  color: black;
+}
+
+h2 {
+  font-family: "Dancing Script", cursive;
+  font-weight: 600;
+  color: black;
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+  font-family: "Poor Story", system-ui;
+  font-weight: 400;
+  color: rgb(199, 10, 10);
+  margin-left: 70px;
+  padding: 15px;
+}
+p {
+  color: rgb(61, 59, 59);
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 20px;
+}
+figure {
+  margin: auto;
+  width: 300px;
+}
+figure img {
+  margin: auto;
+  display: block;
+  width: 100%;
+  border: 5px solid rgb(211, 11, 11);
+  border-radius: 7px;
+}
+figure figcaption {
+  text-align: center;
+  padding-top: 15px;
+}
+.container {
+  margin: 15px;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+}
+label {
+  display: block;
+  color: rgb(199, 10, 10);
+  font-family: "Josefin Slab", serif;
+  font-size: 30px;
+}
+
+input,
+textarea {
+  width: 50%;
+  padding: 20px 0;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 25px;
+  font-family: "Josefin Slab", serif;
+}
+
+#submit {
+  width: 50%;
+  margin: 0 25px;
+}
+#submit button {
+  display: block;
+  margin: auto;
+  padding: 10px 50px;
+  font-size: 20px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+#submit button:hover {
+  background-image: url(https://images.pexels.com/photos/4194853/pexels-photo-4194853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
+  color: rgb(199, 10, 10);
+}
+iframe {
+  display: block;
+  width: 100%;
+}
+#maps {
+  margin: auto;
+  border: 5px solid rgb(211, 11, 11);
+  border-radius: 7px;
+  width: 700px;
+}
+#main-footer {
+  display: block;
+  text-align: center;
+  margin: 20px 323px;
+  color: rgb(199, 10, 10);
+  font-size: 30px;
+  background: url(https://images.pexels.com/photos/4194853/pexels-photo-4194853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
